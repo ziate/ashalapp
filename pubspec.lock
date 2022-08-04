@@ -1216,6 +1216,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.9.2"
+  whatsapp_unilink:
+    dependency: "direct main"
+    description:
+      name: whatsapp_unilink
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.2"
   win32:
     dependency: transitive
     description:

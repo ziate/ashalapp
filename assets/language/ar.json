@@ -499,5 +499,6 @@
   "remove_account": "إزالة الحساب",
   "are_you_sure_to_delete_account": "هل أنت متأكد من حذف حسابك?",
   "it_will_remove_your_all_information": "سوف يزيل كل المعلومات الخاصة بك.",
-  "no_restaurant_data_found": "لم يتم العثور على بيانات مطعم"
+  "no_restaurant_data_found": "لم يتم العثور على بيانات مطعم",
+  "whats_app":"اتصل بنا عبر واتساب"
 }

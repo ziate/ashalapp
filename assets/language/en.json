@@ -499,5 +499,6 @@
   "delete_account": "Delete Account",
   "are_you_sure_to_delete_account": "Are you sure to delete your account?",
   "it_will_remove_your_all_information": "It will remove your all information.",
-  "no_restaurant_data_found": "No restaurant data found"
+  "no_restaurant_data_found": "No restaurant data found",
+  "whats_app":"Connect us on Whatsapp"
 }

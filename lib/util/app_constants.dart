@@ -32,40 +32,48 @@ class AppConstants {
   static const String PLACE_ORDER_URI = '/api/v1/customer/order/place';
   static const String ADDRESS_LIST_URI = '/api/v1/customer/address/list';
   static const String ZONE_URI = '/api/v1/config/get-zone-id';
-  static const String REMOVE_ADDRESS_URI = '/api/v1/customer/address/delete?address_id=';
+  static const String REMOVE_ADDRESS_URI =
+      '/api/v1/customer/address/delete?address_id=';
   static const String ADD_ADDRESS_URI = '/api/v1/customer/address/add';
   static const String UPDATE_ADDRESS_URI = '/api/v1/customer/address/update/';
   static const String SET_MENU_URI = '/api/v1/items/set-menu';
   static const String CUSTOMER_INFO_URI = '/api/v1/customer/info';
   static const String COUPON_URI = '/api/v1/coupon/list';
   static const String COUPON_APPLY_URI = '/api/v1/coupon/apply?code=';
-  static const String RUNNING_ORDER_LIST_URI = '/api/v1/customer/order/running-orders';
+  static const String RUNNING_ORDER_LIST_URI =
+      '/api/v1/customer/order/running-orders';
   static const String HISTORY_ORDER_LIST_URI = '/api/v1/customer/order/list';
   static const String ORDER_CANCEL_URI = '/api/v1/customer/order/cancel';
   static const String COD_SWITCH_URL = '/api/v1/customer/order/payment-method';
-  static const String ORDER_DETAILS_URI = '/api/v1/customer/order/details?order_id=';
+  static const String ORDER_DETAILS_URI =
+      '/api/v1/customer/order/details?order_id=';
   static const String WISH_LIST_GET_URI = '/api/v1/customer/wish-list';
   static const String ADD_WISH_LIST_URI = '/api/v1/customer/wish-list/add?';
-  static const String REMOVE_WISH_LIST_URI = '/api/v1/customer/wish-list/remove?';
+  static const String REMOVE_WISH_LIST_URI =
+      '/api/v1/customer/wish-list/remove?';
   static const String NOTIFICATION_URI = '/api/v1/customer/notifications';
   static const String UPDATE_PROFILE_URI = '/api/v1/customer/update-profile';
   static const String SEARCH_URI = '/api/v1/';
   static const String REVIEW_URI = '/api/v1/items/reviews/submit';
   static const String ITEM_DETAILS_URI = '/api/v1/items/details/';
-  static const String LAST_LOCATION_URI = '/api/v1/delivery-man/last-location?order_id=';
-  static const String DELIVER_MAN_REVIEW_URI = '/api/v1/delivery-man/reviews/submit';
+  static const String LAST_LOCATION_URI =
+      '/api/v1/delivery-man/last-location?order_id=';
+  static const String DELIVER_MAN_REVIEW_URI =
+      '/api/v1/delivery-man/reviews/submit';
   static const String STORE_URI = '/api/v1/stores/get-stores';
   static const String POPULAR_STORE_URI = '/api/v1/stores/popular';
   static const String LATEST_STORE_URI = '/api/v1/stores/latest';
   static const String STORE_DETAILS_URI = '/api/v1/stores/details/';
   static const String BASIC_CAMPAIGN_URI = '/api/v1/campaigns/basic';
   static const String ITEM_CAMPAIGN_URI = '/api/v1/campaigns/item';
-  static const String BASIC_CAMPAIGN_DETAILS_URI = '/api/v1/campaigns/basic-campaign-details?basic_campaign_id=';
+  static const String BASIC_CAMPAIGN_DETAILS_URI =
+      '/api/v1/campaigns/basic-campaign-details?basic_campaign_id=';
   static const String INTEREST_URI = '/api/v1/customer/update-interest';
   static const String SUGGESTED_ITEM_URI = '/api/v1/customer/suggested-items';
   static const String STORE_REVIEW_URI = '/api/v1/stores/reviews';
   static const String DISTANCE_MATRIX_URI = '/api/v1/config/distance-api';
-  static const String SEARCH_LOCATION_URI = '/api/v1/config/place-api-autocomplete';
+  static const String SEARCH_LOCATION_URI =
+      '/api/v1/config/place-api-autocomplete';
   static const String PLACE_DETAILS_URI = '/api/v1/config/place-api-details';
   static const String GEOCODE_URI = '/api/v1/config/geocode-api';
   static const String SOCIAL_LOGIN_URL = '/api/v1/auth/social-login';
@@ -78,6 +86,7 @@ class AppConstants {
   static const String TERMS_AND_CONDITIONS_URI = '/terms-and-conditions';
   static const String SUBSCRIPTION_URI = '/api/v1/newsletter/subscribe';
   static const String CUSTOMER_REMOVE = '/api/v1/customer/remove-account';
+  static const String WHATSAPP_NUMBER = '201144420094';
 
   // Shared Key
   static const String THEME = '6ammart_theme';
@@ -100,15 +109,27 @@ class AppConstants {
   static const String LOCALIZATION_KEY = 'X-localization';
 
   static List<ChooseUsModel> whyChooseUsList = [
-    ChooseUsModel(icon: Images.landing_trusted, title: 'trusted_by_customers_and_store_owners'),
+    ChooseUsModel(
+        icon: Images.landing_trusted,
+        title: 'trusted_by_customers_and_store_owners'),
     ChooseUsModel(icon: Images.landing_stores, title: 'thousands_of_stores'),
-    ChooseUsModel(icon: Images.landing_excellent, title: 'excellent_shopping_experience'),
-    ChooseUsModel(icon: Images.landing_checkout, title: 'easy_checkout_and_payment_system'),
+    ChooseUsModel(
+        icon: Images.landing_excellent, title: 'excellent_shopping_experience'),
+    ChooseUsModel(
+        icon: Images.landing_checkout,
+        title: 'easy_checkout_and_payment_system'),
   ];
 
   static List<LanguageModel> languages = [
-    LanguageModel(imageUrl: Images.arabic, languageName: 'عربى', countryCode: 'SA', languageCode: 'ar'),
-    LanguageModel(imageUrl: Images.english, languageName: 'English', countryCode: 'US', languageCode: 'en'),
-
+    LanguageModel(
+        imageUrl: Images.arabic,
+        languageName: 'عربى',
+        countryCode: 'SA',
+        languageCode: 'ar'),
+    LanguageModel(
+        imageUrl: Images.english,
+        languageName: 'English',
+        countryCode: 'US',
+        languageCode: 'en'),
   ];
 }
