@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "308310824736",
+    "project_id": "ashalapp-29318",
+    "storage_bucket": "ashalapp-29318.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308310824736:android:36a77a67d7b1b9266ae945",
+        "android_client_info": {
+          "package_name": "com.ashalapp.holetechnology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308310824736-ojj7rb1is37eq4re5med69g6npi30gee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCejMch6dvxkyx1fOZjPAi87i6mCV7q1_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308310824736-ojj7rb1is37eq4re5med69g6npi30gee.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "308310824736-dbe0t0cmecmgjn8nl91aaajhdp54o1n6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ashalapp.holetechnology"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308310824736:android:d65cfcfb704d0c886ae945",
+        "android_client_info": {
+          "package_name": "com.ashaldevery.holetechnology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308310824736-ojj7rb1is37eq4re5med69g6npi30gee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCejMch6dvxkyx1fOZjPAi87i6mCV7q1_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308310824736-ojj7rb1is37eq4re5med69g6npi30gee.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "308310824736-dbe0t0cmecmgjn8nl91aaajhdp54o1n6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ashalapp.holetechnology"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308310824736:android:58bf806ef31784616ae945",
+        "android_client_info": {
+          "package_name": "com.ashalshops.holetechnology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308310824736-ojj7rb1is37eq4re5med69g6npi30gee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCejMch6dvxkyx1fOZjPAi87i6mCV7q1_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308310824736-ojj7rb1is37eq4re5med69g6npi30gee.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "308310824736-dbe0t0cmecmgjn8nl91aaajhdp54o1n6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ashalapp.holetechnology"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
